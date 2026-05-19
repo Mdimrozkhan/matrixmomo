@@ -320,10 +320,11 @@ export default function Header() {
                     </h3>
 
                     <p className="text-gray-400 mt-2 text-sm sm:text-base">
-                      Sector 58 Digitide,<br />
-                      324,
+                      BRANCH NO :-01<br />
+                      Sector 16 near DLF mall,<br />
+                  
                       Noida, Uttar Pradesh <br />
-                      Near MomoMatrix Outlet
+                      MomoMatrix Outlet
                     </p>
 
                   </div>
