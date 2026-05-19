@@ -35,7 +35,26 @@ export default function ReelWinPage() {
           </div>
 
           {/* Floating Glow */}
-          <div className="absolute w-[350px] h-[350px] bg-red-600/20 blur-[120px] rounded-full"></div>
+          {/* <div className="absolute w-[350px] h-[350px] bg-red-600/20 blur-[1500px] rounded-full"></div> */}
+          {/* Background Image */}
+<div className="absolute inset-0">
+
+  <Image
+    src="/reel-coming-soon.jpg"
+    alt="Coming Soon"
+    fill
+    priority
+    quality={100}
+    className="object-cover object-center scale-100"
+  />
+
+  {/* Light Overlay Only */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  {/* Bottom Gradient */}
+  <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/60"></div>
+
+</div>
 
           {/* Content */}
           <div className="relative z-10 text-center max-w-4xl mx-auto">
